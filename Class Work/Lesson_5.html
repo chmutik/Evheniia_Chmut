@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        <form id="my-form" class="my-form" action="contact.php" method="POST">
+        <input type="text" name="name2" id="name2" placeholder="Имя"/>
+        <input type="tel" name="tel2" id="tel2" placeholder="Телефон"/>
+        <input type="email" name="email2" id="email2" placeholder="E-mail"/>
+        <input type="color"/>
+        <input type="date"/>
+        <input type="number" value="-100"/>
+        <input type="time"/>
+        <input type="range"/>
+    </form>
+
+    <h2>Class Work Lesson 5</h2>
+    <h3>Table</h3>
+    <table border="1">
+        <tr>
+            <th colspan="2">First</th>
+            <th>Second</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row2 cell</td>
+            <td>Row2</td>
+            <td>Row2</td>
+        </tr>
+        <tr>
+            <td>Row3</td>
+            <td>Row3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row4</td>
+        </tr>
+    </table>
+    <h2>Form</h2>
+<Form id="my_form" name="my_form" class="my-form" action="contact.php" method="POST">
+<div>
+    <input type="text" name="name2" id="name2" placeholder="Name" maxlength="40" required="required"/>
+</div>
+<div>
+    <input type="tel" name="tel2" id="tel2" placeholder="telefone" required="required"/>
+</div>
+<div>
+    <input type="email" name="email2" id="email2" placeholder="email"/>
+</div>
+<div>
+    <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="40" placeholder="Comment"></textarea>
+</div>
+<input type="button" value="Send"/>
+<input type="reset" value="Reset"/>
+</Form>
+    </body>
+</html>
